@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    z-index: 2;
+}
+
+nav {
+    height: 76px;
+    width: 100%;
+    background: linear-gradient(102.87deg, rgba(252, 238, 213, 0.6) 6.43%, rgba(252, 238, 213, 0.6) 78.33%, rgba(255, 231, 186, 0.6) 104.24%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.main-logo {
+    height: 52px;
+    width: 312px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-logo img {
+    height: 52px;
+    width: 52px;
+}
+
+.Frame-19161 {
+    height: 29px;
+    width: 600px;
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.Frame-19161 a {
+    color: #121424;
+    text-decoration: none;
+}
+
+.group-19161 {
+    width: 175.82px;
+    height: 36.71px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.group-19161 a {
+    color: #121424;
+    font-weight: bold;
+}
+
+.group-19161 button {
+    width: 95.35px;
+    height: 36.71px;
+    background-color: #121424;
+    color: #ffffff;
+    border-radius: 25px;
+    border: none;
+}
+
+/* nav section completed */
+.rectangle {
+    width: 100%;
+    height: 5px;
+    background-color: #FFD80D;
+}
+
+/* from here this is contaioner sction */
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-sec {
+    width: 72%;
+    height: 750px;
+    top: 116px;
+    background: url('assets/image1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid #FFAD0E;
+}
+
+.frame8 {
+    width: 962px;
+    height: 518px;
+    margin: auto;
+    background-image: url(0ebdb69db961c99ac6d58ad990562d1f.jpg);
+    border-color: solid #ffffff;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.group-19164 {
+    width: 854.03px;
+    height: 413.67px;
+
+    left: 60.66px;
+    background: #F4D263E3;
+    margin-top: 50px;
+    margin: auto;
+    border: 4.85px solid #ffffff;
+}
+
+.inside {
+    width: 736.36px;
+    height: 356.9px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.right-sec {
+    background: linear-gradient(102.87deg, rgba(252, 238, 213, 0.6) 6.43%, rgba(252, 238, 213, 0.6) 78.33%, rgba(255, 231, 186, 0.6) 104.24%);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Sidebar Section Styling */
+.sidebar {
+    width: 85%;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.publisher-details,
+.latest-journal {
+    font-family: 'inter', sans-serif;
+    background-color: white;
+    margin-top: 25px;
+    box-shadow: 7px 7px 15.5px 0px #08030340;
+}
+
+.publisher-h {
+    background: linear-gradient(90deg, #F7EDDB 0%, #FFC60D 100%);
+    height: 52px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    padding-left: 10%;
+
+}
+
+.publisher-info {
+    padding: 20px;
+    font-family: 'inter';
+}
+
+
+.latest-journal {
+    height: 500px;
+    text-align: center;
+}
+
+
+.banner {
+    width: 85%;
+    margin: 80px auto;
+    display: inline-block;
+    padding: 20px 40px;
+    border: 5px solid red;
+    color: red;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    transform: rotate(-10deg);
+}
+
+.circle-out {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290.15px;
+    height: 101px;
+    margin: 40px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 7px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.circle-content h1 {
+    font-weight: 900;
+}
