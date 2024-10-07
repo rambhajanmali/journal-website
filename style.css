@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 body {
     position: relative;
     z-index: 2;
+    background-color: #FDF4E3;
 }
 
 nav {
@@ -17,6 +19,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
+    border-bottom: 5px solid #FFD80D;
 }
 
 .main-logo {
@@ -36,7 +39,6 @@ nav {
 
 .Frame-19161 {
     height: 29px;
-    width: 600px;
     display: flex;
     gap: 40px;
     font-size: 18px;
@@ -46,6 +48,7 @@ nav {
 .Frame-19161 a {
     color: #121424;
     text-decoration: none;
+    position: relative;
 }
 
 .group-19161 {
@@ -70,12 +73,44 @@ nav {
     border: none;
 }
 
-/* nav section completed */
-.rectangle {
-    width: 100%;
-    height: 5px;
+/* Dropdown Menu Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    width: 200px;
+    color: #121424;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: #FDF4E3;
+}
+
+.dropdown-content a:hover {
     background-color: #FFD80D;
 }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Align the dropdown under the "About" link */
+.dropdown:hover .dropbtn {
+    color: #FFD80D;
+}
+
+/* nav section completed */
 
 /* from here this is contaioner sction */
 .container {
@@ -85,7 +120,7 @@ nav {
 
 .left-sec {
     width: 72%;
-    height: 750px;
+    height: 800px;
     top: 116px;
     background: url('assets/image1.jpeg');
     background-size: cover;
@@ -217,3 +252,232 @@ nav {
 .circle-content h1 {
     font-weight: 900;
 }
+/* -------------------------------- */
+
+.recent-published-section {
+    background-color: #EBEBEB;
+    margin-top: 25px;
+    width: 72%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    background-color: #ffcc00;
+    padding: 18px 50px;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 25px 80px;
+}
+
+.image-container img {
+    max-width: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    max-width: 600px;
+}
+
+.text-container h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.text-container p {
+    font-size: 1.1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.read-more {
+    color: #3366cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.download-button {
+    background-color: white;
+    color:  #FFDB10;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.download-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.download-button:hover, .read-more:hover {
+    text-decoration: underline;
+}
+
+
+
+/* General styling for the article section */
+.article-section {
+    background-color: #f9f9f9;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 72%;
+
+}
+
+.article-section h2 {
+    background-color: #ffcf00;
+    padding: 18px;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Styling for the article card */
+.article-card {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px 80px;
+}
+
+/* Image styling */
+.article-image {
+    width: 150px;
+    height: auto;
+}
+
+/* Article content styling */
+.article-content h3 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: black;
+}
+
+.article-content p {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Buttons and links styling */
+.article-actions {
+    display: flex;
+    align-items: center;
+}
+
+.download-btn {
+    background-color: #f6b71b;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.download-btn:hover {
+    background-color: #eaa617;
+}
+
+.read-more {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+
+
+.footer {
+    background-color: #603a23;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.logo-image {
+    max-width: 60px;
+    height: auto;
+}
+
+.footer-text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-text p {
+    margin-bottom: 5px;
+    color: #eee;
+}
+
+.footer-right .footer-image {
+    max-width: 250px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Responsive for smaller screens */
+/* @media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-right {
+        margin-top: 20px;
+    }
+
+    .footer-right .footer-image {
+        width: 100%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
