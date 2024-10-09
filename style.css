@@ -202,6 +202,74 @@ nav {
     font-family: 'inter';
 }
 
+.journal-section {
+    width: 100%;
+    margin: 40px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.journal-header {
+    background: linear-gradient(90deg, #FFD50E 0%, #FFB10E 100%);
+    padding: 10px;
+    text-align: center;
+    height: 52px;
+}
+
+.journal-header h2 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.journal-content {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.journal-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.journal-image {
+    width: 80px;
+    height: 110px;
+    border-radius: 8px 0 0 8px;
+    margin-right: 10px;
+}
+
+.journal-info {
+    flex-grow: 1;
+    padding:  10px;
+}
+
+.journal-info h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+
+.journal-info p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #0288d1;
+    font-size: 0.9em;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
 /* -------------------------------- */
 
 .recent-published-section {
@@ -422,75 +490,9 @@ nav {
 } */
 
 
-/* ----------------------------------------------------------- */
 
-.journal-section {
-    width: 100%;
-    margin: 40px auto;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
 
-.journal-header {
-    background: linear-gradient(90deg, #FFD50E 0%, #FFB10E 100%);
-    padding: 10px;
-    text-align: center;
-    height: 52px;
-}
 
-.journal-header h2 {
-    color: #333;
-    font-size: 1.5em;
-}
-
-.journal-content {
-    max-height: 400px;
-    overflow-y: auto;
-    padding: 10px;
-}
-
-.journal-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 15px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.journal-image {
-    width: 80px;
-    height: 110px;
-    border-radius: 8px 0 0 8px;
-    margin-right: 10px;
-}
-
-.journal-info {
-    flex-grow: 1;
-    padding:  10px;
-}
-
-.journal-info h3 {
-    font-size: 1em;
-    margin-bottom: 5px;
-}
-
-.journal-info p {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 5px;
-}
-
-.read-more {
-    text-decoration: none;
-    color: #0288d1;
-    font-size: 0.9em;
-}
-
-.read-more:hover {
-    text-decoration: underline;
-}
 
 
 
