@@ -122,7 +122,7 @@ nav {
     width: 72%;
     height: 800px;
     top: 116px;
-    background: url('assets/image1.jpeg');
+    background: url('../assets/image1.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;

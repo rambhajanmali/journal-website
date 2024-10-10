@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: url("../assets/89\ \(1\).jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-container img{
+    width: 100px;
+    height: 100px;
+    margin-right: 300px;
+    align-items: start;
+}
+
+.login-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #3C4257;
+    text-align: start;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 0.85rem;
+    color: #4285f4;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.checkbox-group input {
+    margin-right: 10px;
+}
+
+.btn-continue {
+    width: 100%;
+    padding: 10px;
+    background-color: #f6a623;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.divider {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.btn-google {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px 2px #ebebe7;
+}
+
+.btn-google img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.create-account {
+    font-size: 0.85rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.create-account a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    margin: 0 5px;
+    color: #666;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .login-card {
+        padding: 15px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .btn-continue,
+    .btn-google {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    .forgot-password,
+    .create-account,
+    footer p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .login-card {
+        padding: 10px;
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .input-group input {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .btn-continue,
+    .btn-google {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+
+    .forgot-password,
+    .create-account,
+    footer p {
+        font-size: 0.7rem;
+    }
+    .login-container img{
+        margin-right: 250px;
+    }
+}
+
+@media (max-width: 360px) {
+    .login-card {
+        padding: 8px;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .btn-continue,
+    .btn-google {
+        padding: 8px;
+        font-size: 0.8rem;
+    }
+
+    .forgot-password,
+    .create-account,
+    footer p {
+        font-size: 0.65rem;
+    }
+}
