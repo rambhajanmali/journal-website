@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <!-- Logo Section -->
@@ -34,8 +36,9 @@
 
                 <div class="input-group">
                     <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" required>
-                    <span class="toggle-password" onclick="togglePassword('confirm-password')" >👁️</span>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password"
+                        required>
+                    <span class="toggle-password" onclick="togglePassword('confirm-password')">👁️</span>
                 </div>
 
                 <button type="submit" class="btn-continue">Continue</button>
@@ -58,16 +61,16 @@
         </div>
     </div>
 
-  <script>
-    function togglePassword(id) {
-    const passwordInput = document.getElementById(id);
-    if (passwordInput.type === 'password') {
-        passwordInput.type = 'text';
-    } else {
-        passwordInput.type = 'password';
-    }
-}
-
-  </script>
+    <script>
+        function togglePassword(id) {
+            const passwordInput = document.getElementById(id);
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        }
+    </script>
 </body>
+
 </html>
